@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Agency - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional styles for the Contact page */
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 100px); /* Adjust for header and footer heights */
+        }
+        
+        .contact-form {
+            max-width: 500px;
+            padding: 40px;
+            background-color: #DAE1D8;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .contact-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        
+        .contact-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        
+        .contact-textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        
+        .contact-button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Navigation bar -->
+    </header>
+    
+    <div class="container">
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2 class="contact-title">Contact Us</h2>
+                <form>
+                    <input type="text" class="contact-input" placeholder="Your Name" required>
+                    <input type="email" class="contact-input" placeholder="Your Email" required>
+                    <textarea class="contact-textarea" placeholder="Your Message" rows="4" required></textarea>
+                    <button type="submit" class="contact-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Other content or footer -->
+</body>
+</html>
